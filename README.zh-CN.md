@@ -61,6 +61,14 @@
 
 ## 快速开始
 
+### Claude Code（一键安装）
+
+```bash
+npx skills add icantforget/ppt-storyline-creator
+```
+
+也可以在 [SkillSMP](https://skillsmp.com) 搜索 "ppt-storyline-creator" 找到。
+
 ### Claude
 
 1. 打开 [`agents/ppt-creator.md`](agents/ppt-creator.md)，复制全部内容
@@ -162,6 +170,7 @@ your-project/
 
 | 文件 | 说明 |
 |---|---|
+| `SKILL.md` | SkillSMP / Claude Code 兼容的 skill 文件 |
 | `agents/ppt-creator.md` | 通用版 skill（中英双语自动切换） |
 | `agents/ppt-creator-zh.md` | 纯中文版 |
 | `agents/ppt-creator-en.md` | 纯英文版 |

@@ -61,6 +61,14 @@ Each step waits for your confirmation. You can redo any step at any time.
 
 ## Quick Start
 
+### Claude Code (one-click install)
+
+```bash
+npx skills add icantforget/ppt-storyline-creator
+```
+
+Or browse on [SkillSMP](https://skillsmp.com) and search for "ppt-storyline-creator".
+
 ### Claude
 
 1. Open [`agents/ppt-creator.md`](agents/ppt-creator.md) and copy the full content
@@ -161,6 +169,7 @@ After generation, the skill scores your deck and provides improvement suggestion
 
 | File | Description |
 |---|---|
+| `SKILL.md` | SkillSMP / Claude Code compatible skill file |
 | `agents/ppt-creator.md` | Universal skill (auto-detects EN/ZH) |
 | `agents/ppt-creator-zh.md` | Chinese-only version |
 | `agents/ppt-creator-en.md` | English-only version |
